@@ -1,0 +1,27 @@
+body
+・margin: 0;
+・background-color: #f7f7f7;
+
+ヘッダー(header)
+・横幅1200px width: 1200px;
+・縦幅100px  height: 100px;
+・中央寄せ   margin: 0 auto;
+
+大見出し(h1)
+・高さ60px       height: 60px;
+・中央寄せ(高さ)  line-height: 60px;
+・文字色#22454f  color: #22454f;
+・背景色#28a6cc  background-color: #28a6cc;
+・余白左padding-left: 10px;
+
+グローバルナビ(ul)
+・横幅1200px
+・縦幅40px
+
+ナビ(li)
+・float:left使用
+・横幅300px
+・縦幅40px
+・文字色#62b4cc
+・背景色#394548
+・文字センタリング
