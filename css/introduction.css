@@ -1,0 +1,18 @@
+#shimizu div p {
+    display: inline-block;
+}
+.ent {
+    display: inline-block;
+    /*float: left;*/
+
+}
+.info {
+    list-style:none;
+}
+.in {
+    /*float: right;*/
+}
+
+#musashi div p {
+    display: inline-block;
+}
