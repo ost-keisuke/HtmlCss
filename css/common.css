@@ -3,38 +3,102 @@ body {
     background-color: #f7f7f7;
 }
 header {
-    width: 1200px;
+    width: 100%;
     height: 100px;
+    background-color: #0A2A0A;
+}
+header div {
+    width: 1200px;
     margin: 0 auto 0 auto;
 }
-header h1 {
+header div h1 {
     height: 60px;
     line-height: 60px;
     color: #22454f;
-    background-color: #28a6cc;
     margin: 0;
     padding: 0 0 0 10px;
 }
-header ul {
+header div h1 a:link {
+    color: #D8F6CE;
+    text-decoration:none;
+}
+header div h1 a:visited {
+    color: #D8F6CE;
+    text-decoration:none;
+}
+header div h1 a:hover {
+    color: #81F781;
+    text-decoration:none;
+}
+header div h1 a:active {
+    color: #D8F6CE;
+    text-decoration:none;
+}
+header nav {
+    width: 100%;
+    background-color: #394548;
+}
+header nav ul {
     width: 1200px;
     height: 40px;
-    margin: 0;
+    margin: 0 auto 0 auto;
     padding: 0;
+    background-color: #394548;
 }
-header ul li {
+header nav ul li {
     float: left;
-    width: 300px;
+    width: 238px;
     height: 40px;
     line-height: 40px;
     text-align: center;
     list-style:none;
-    color: #62b4cc;
-    background-color: #394548;
+    color: #088A08;
+    border-color: #fff;
+}
+header nav ul li a:link {
+    color: #088A08;
+    text-decoration:none;
+}
+header nav ul li a:visited {
+    color: #088A08;
+    text-decoration:none;
+}
+header nav ul li a:hover {
+    color: #81F781;
+    text-decoration:none;
+}
+header nav ul li a:active {
+    color: #088A08;
+    text-decoration:none;
+}
+
+#wrapper #page-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #FF0040;
+    border-radius: 40%;
+}
+#wrapper #page-top p {
+    position: fixed;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 4px;
+    color: #92e5fe;
+    background-color: #000;
+    text-align: center;
+    border-radius: 40%;
 }
 
 footer {
     width: 1200px;
     height: 50px;
+    line-height: 50px;
     margin: 0 auto 0 auto;
-    background-color: #0b303b;
+    text-align: center;
+    background-color: #0A2A0A;
+    color: #fff;
 }
