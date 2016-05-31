@@ -1,16 +1,23 @@
 #shimizu div p {
     display: inline-block;
+    /*width: 600px;*/
+    /*height: 400px;*/
 }
 .ent {
     display: inline-block;
-    /*float: left;*/
+    float: left;
+    overflow: auto;
+    clear:both;
+    width: 400px;
 
 }
 .info {
     list-style:none;
+    /*float: left;*/
 }
 .in {
     /*float: right;*/
+    overflow: hidden;
 }
 
 #musashi div p {
