@@ -18,6 +18,22 @@ header div h1 {
     margin: 0;
     padding: 0 0 0 10px;
 }
+header div h1 a:link {
+    color: #000000;
+    text-decoration:none;
+}
+header div h1 a:visited {
+    color: #000000;
+    text-decoration:none;
+}
+header div h1 a:hover {
+    color: #81F781;
+    text-decoration:none;
+}
+header div h1 a:active {
+    color: #000000;
+    text-decoration:none;
+}
 header nav {
     width: 100%;
     background-color: #394548;
@@ -37,6 +53,43 @@ header nav ul li {
     text-align: center;
     list-style:none;
     color: #62b4cc;
+}
+header nav ul li a:link {
+    color: #62b4cc;
+    text-decoration:none;
+}
+header nav ul li a:visited {
+    color: #62b4cc;
+    text-decoration:none;
+}
+header nav ul li a:hover {
+    color: #81F781;
+    text-decoration:none;
+}
+header nav ul li a:active {
+    color: #62b4cc;
+    text-decoration:none;
+}
+
+#wrapper #page-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #9288fe;
+    border-radius: 40%;
+}
+#wrapper #page-top p {
+    position: fixed;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 4px;
+    color: #92e5fe;
+    background-color: #000;
+    text-align: center;
+    border-radius: 40%;
 }
 
 footer {

@@ -58,24 +58,3 @@
     line-height: 50px;
     color: #394548;
 }
-
-#wrapper #page-top {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 50px;
-    height: 50px;
-    background-color: #9288fe;
-    border-radius: 40%;
-}
-#wrapper #page-top p {
-    position: fixed;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 4px;
-    color: #92e5fe;
-    background-color: #000;
-    text-align: center;
-    border-radius: 40%;
-}
