@@ -13,10 +13,8 @@
 }
 .info {
     list-style:none;
-    /*float: left;*/
 }
 .in {
-    /*float: right;*/
     overflow: hidden;
 }
 
