@@ -1,3 +1,12 @@
+#introduction {
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+#shimizu {
+    width: 1200px;
+    margin: 0 auto 0 auto;
+}
 #shimizu div p {
     display: inline-block;
     /*width: 600px;*/
@@ -9,13 +18,20 @@
     overflow: auto;
     clear:both;
     width: 400px;
-
+    margin: 0;
 }
 .info {
     list-style:none;
+    width: 800px;
+    margin: 0;
 }
 .in {
     overflow: hidden;
+}
+
+#musashi {
+    width: 1200px;
+    margin: 0 auto 0 auto;
 }
 
 #musashi div p {
